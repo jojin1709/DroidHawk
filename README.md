@@ -1,49 +1,49 @@
 # 🦅 DroidHawk - Advanced Android Recon & Security Toolkit
 
-DroidHawk is a powerful automation tool built for **Android security testing, reconnaissance, and bug bounty workflows**.
+DroidHawk is a powerful automation toolkit designed for **Android security testing, reconnaissance, and bug bounty workflows**.
 
-It combines multiple security tools into a single streamlined interface to help identify vulnerabilities faster and more efficiently.
+It integrates multiple industry-standard tools into a **single streamlined interface**, helping security researchers and ethical hackers discover vulnerabilities faster and more efficiently.
 
 ---
 
-## ⚡ Key Features
+## 🚀 Key Features
 
 ### 🔍 Reconnaissance
-- Subdomain enumeration (Amass, Subfinder)
-- Endpoint discovery
-- Live host detection (httpx)
-- Attack surface mapping
+- Subdomain Enumeration (Amass, Subfinder)
+- Endpoint Discovery
+- Live Host Detection (httpx)
+- Attack Surface Mapping
 
 ### 🕷️ Crawling & Discovery
 - Automated crawling of web assets
-- Hidden endpoints & parameters discovery
+- Hidden endpoints & parameter discovery
 - URL collection for further testing
 
 ### 🔐 Sensitive Data Detection
-- API key discovery
-- Token & secret scanning
-- Misconfiguration detection
+- API Key Discovery
+- Token & Secret Scanning
+- Misconfiguration Detection
 
 ### 📡 Scanning Capabilities
-- Fast port scanning
-- Service detection
-- Basic vulnerability checks
+- Fast Port Scanning (Masscan)
+- Service Detection
+- Basic Vulnerability Checks
 
 ### ⚙️ Automation
 - One-command execution
 - Tool chaining for faster workflow
-- Reduced manual effort
+- Reduces manual effort
 
 ---
 
 ## 🛠️ Tools Integrated
 
-- Amass  
-- Subfinder  
-- httpx  
-- Masscan  
-- SpiderFoot  
-- TruffleHog  
+- Amass
+- Subfinder
+- httpx
+- Masscan
+- SpiderFoot
+- TruffleHog
 
 ---
 
@@ -53,3 +53,49 @@ It combines multiple security tools into a single streamlined interface to help 
 git clone https://github.com/jojin1709/DroidHawk
 cd DroidHawk
 pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+```bash
+python DroidHawk.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+DroidHawk/
+│── DroidHawk.py
+│── requirements.txt
+│── README.md
+│── Scripts/
+```
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is created for **educational and ethical testing purposes only**.  
+Do not use it on systems without proper authorization.
+
+---
+
+## 👨‍💻 Author
+
+**Jojin John**  
+- GitHub: https://github.com/jojin1709
+
+---
+
+## ⭐ Support
+
+If you found this project useful:
+- ⭐ Star the repo
+- 🍴 Fork it
+- 🧠 Contribute
+
+---
