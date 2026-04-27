@@ -1,50 +1,55 @@
-# 🦅 DroidHawk — Android Bug Bounty Automation
+# 🦅 DroidHawk - Advanced Android Recon & Security Toolkit
 
-**Made by Jojin John**
+DroidHawk is a powerful automation tool built for **Android security testing, reconnaissance, and bug bounty workflows**.
 
-DroidHawk is a powerful Android security testing automation toolkit for bug bounty hunters and pentesters.
-
-> ⚠️ For **authorized testing only** — only use on apps/devices you have permission to test.
+It combines multiple security tools into a single streamlined interface to help identify vulnerabilities faster and more efficiently.
 
 ---
 
-## 🚀 Features
+## ⚡ Key Features
 
-| Menu | Feature |
-|------|---------|
-| 1 | Create Virtual Device (guide) |
-| 2 | Root Emulator — Magisk + rootAVD (one-click) |
-| 3 | Install Tools — frida, objection, apkleaks, and more |
-| 4 | Configure Emulator — Frida server, Burp cert, proxy |
-| 5 | Run Frida Server |
-| 6 | **Frida Tools** — SSL bypass, root bypass, objection, REPL, frida-trace |
-| 7 | **APK Analysis** — decode, secrets scan, manifest audit, pull, repack+sign, grep |
-| 8 | **Traffic & Proxy** — set/clear proxy, adb reverse, cleartext monitor |
-| 9 | Device Info — root status, Frida status, ABI, disk |
-| 10 | **Runtime Tampering** — debug attach, intent launch, content provider, SharedPrefs dump, SQLite dump |
-| 11 | Session Log & Reports |
+### 🔍 Reconnaissance
+- Subdomain enumeration (Amass, Subfinder)
+- Endpoint discovery
+- Live host detection (httpx)
+- Attack surface mapping
+
+### 🕷️ Crawling & Discovery
+- Automated crawling of web assets
+- Hidden endpoints & parameters discovery
+- URL collection for further testing
+
+### 🔐 Sensitive Data Detection
+- API key discovery
+- Token & secret scanning
+- Misconfiguration detection
+
+### 📡 Scanning Capabilities
+- Fast port scanning
+- Service detection
+- Basic vulnerability checks
+
+### ⚙️ Automation
+- One-command execution
+- Tool chaining for faster workflow
+- Reduced manual effort
 
 ---
 
-## ⚡ Quick Start
+## 🛠️ Tools Integrated
+
+- Amass  
+- Subfinder  
+- httpx  
+- Masscan  
+- SpiderFoot  
+- TruffleHog  
+
+---
+
+## ⚙️ Installation
 
 ```bash
+git clone https://github.com/your-username/DroidHawk.git
+cd DroidHawk
 pip install -r requirements.txt
-python DroidHawk.py
-```
-
-## 📋 Requirements
-
-- Python 3.9+
-- Android Studio + ADB in PATH
-- frida-tools: `pip install frida-tools`
-- requests: `pip install requests`
-
-## 🛠 Optional Tools
-
-```bash
-pip install objection apkleaks androguard
-```
-
-- **apktool** — https://apktool.org/
-- **jadx** — https://github.com/skylot/jadx/releases
