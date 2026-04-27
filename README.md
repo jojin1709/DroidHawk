@@ -50,6 +50,6 @@ It combines multiple security tools into a single streamlined interface to help 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/DroidHawk.git](https://github.com/jojin1709/DroidHawk
+git clone https://github.com/jojin1709/DroidHawk
 cd DroidHawk
 pip install -r requirements.txt
